@@ -13,3 +13,15 @@
 - C#
 - Xcode 16.2
 - Elixir
+
+## 3. 사용기술
+|기술|설명|
+|------|---
+|디자인 패턴|● 싱글톤 패턴을 사용하여 Manager 관리 <br> ● FSM으로 유닛 상태관리 <br> ● MVRP 패턴으로 작성 <br> ● BlackBoard 전투 시스템 데이터 관리| 
+|Object Pooling|자주 사용되는 객체는 Pool 관리하여 재사용 (Projectile, Unit, Effect)| 
+|UI| Unirx 사용으로 데이터에 따라 UI 수정|
+|Data| 엑셀 파싱으로 S3 스토리지 Addressable 로 업데이트 관리|
+|API| Elixir 로 소켓통신| 
+
+## 4. 구현
+- Objec
